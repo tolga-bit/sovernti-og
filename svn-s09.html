@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sovernti — Your wine, breathing at the table before you arrive.</title>
+
+  <!-- Open Graph (LinkedIn / Facebook / Slack / iMessage) -->
+  <meta property="og:type" content="video.other">
+  <meta property="og:site_name" content="Sovernti">
+  <meta property="og:title" content="Your wine, breathing at the table before you arrive.">
+  <meta property="og:description" content="Sovernti — managed custody for collectors who already know what they want to drink. Cultivating our founding-member cohort across London now.">
+  <meta property="og:image" content="https://wiecypcgjkrqzdxdjbbl.supabase.co/storage/v1/object/public/social-clips/posters/svn-s09.jpg">
+  <meta property="og:image:width" content="1080">
+  <meta property="og:image:height" content="1920">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:alt" content="Sovernti wax seal end card — your wine, breathing at the table before you arrive.">
+  <meta property="og:video" content="https://wiecypcgjkrqzdxdjbbl.supabase.co/storage/v1/object/public/social-clips/SVN-S09-closing-seal-tagline-URL-8s.mp4">
+  <meta property="og:video:secure_url" content="https://wiecypcgjkrqzdxdjbbl.supabase.co/storage/v1/object/public/social-clips/SVN-S09-closing-seal-tagline-URL-8s.mp4">
+  <meta property="og:video:type" content="video/mp4">
+  <meta property="og:video:width" content="1080">
+  <meta property="og:video:height" content="1920">
+
+  <!-- Twitter Card / X -->
+  <meta name="twitter:card" content="player">
+  <meta name="twitter:site" content="@sovernti">
+  <meta name="twitter:title" content="Your wine, breathing at the table before you arrive.">
+  <meta name="twitter:description" content="Sovernti — managed custody for collectors who already know what they want to drink. Cultivating our founding-member cohort across London now.">
+  <meta name="twitter:image" content="https://wiecypcgjkrqzdxdjbbl.supabase.co/storage/v1/object/public/social-clips/posters/svn-s09.jpg">
+  <meta name="twitter:player" content="https://wiecypcgjkrqzdxdjbbl.supabase.co/storage/v1/object/public/social-clips/SVN-S09-closing-seal-tagline-URL-8s.mp4">
+  <meta name="twitter:player:width" content="1080">
+  <meta name="twitter:player:height" content="1920">
+  <meta name="twitter:player:stream" content="https://wiecypcgjkrqzdxdjbbl.supabase.co/storage/v1/object/public/social-clips/SVN-S09-closing-seal-tagline-URL-8s.mp4">
+  <meta name="twitter:player:stream:content_type" content="video/mp4">
+
+  <!-- INTENTIONALLY ABSENT: og:url meta tag, link rel canonical, and meta http-equiv refresh.
+       Without og:url and the canonical link, LinkedIn defaults to using the share-URL it was given
+       as the canonical, which prevents the re-fetch loop that broke Lovable-hosted wrappers
+       (Session 60 part A, 8 May 2026). Without the meta refresh, the JavaScript redirect at the
+       bottom of body handles human navigation; crawlers do not execute JS, so they parse OG
+       metadata cleanly without following any redirect. -->
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: #FAF9F6;
+      font-family: 'Playfair Display', Georgia, serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .frame { text-align: center; max-width: 90vw; padding: 24px; }
+    .frame video { max-width: 100%; max-height: 70vh; border-radius: 4px; }
+    .frame p { font-size: 18px; line-height: 1.5; margin-top: 20px; opacity: 0.9; }
+    .frame a { color: #D4A843; text-decoration: none; border-bottom: 1px solid #D4A843; padding-bottom: 2px; }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <video autoplay loop muted playsinline>
+      <source src="https://wiecypcgjkrqzdxdjbbl.supabase.co/storage/v1/object/public/social-clips/SVN-S09-closing-seal-tagline-URL-8s.mp4" type="video/mp4">
+    </video>
+    <p>Sovernti — managed custody for collectors who already know what they want to drink.</p>
+    <p><a href="https://sovernti.com/">Continue to sovernti.com →</a></p>
+  </div>
+  <script>
+    // Redirect humans to sovernti.com after a brief preview.
+    // Crawlers don't execute JS, so they parse OG metadata cleanly without following.
+    setTimeout(function() {
+      window.location.href = "https://sovernti.com/";
+    }, 2000);
+  </script>
+</body>
+</html>
